@@ -1,0 +1,87 @@
+/*var humanStyle = [{'fill': '#1D1D1B','stroke-width': '0','stroke-opacity': '0'}, {'fill': '#1D1D1B','stroke-width': '0','stroke-opacity': '1'} , {'stroke-width': '0','stroke-opacity': '1','fill': '#000000'} ];*/
+var humanStyle = [{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'}, 
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'}
+];
+
+var genderStyle = [{'fill': '#193E5C','parent': 'group_a','stroke-width': '0','stroke-opacity': '1'},
+{'fill': '#50245A','stroke-width': '0','stroke-opacity': '1'}
+];
+    
+var ageStyle = [{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000','stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'}
+];
+    
+
+var kantonStyle = [{'stroke-width': '0','stroke-opacity': '1','fill': '#248bcc'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#e20909'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#e2001a'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#e2001a'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#d00808'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#b40707'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#ffd72e'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#2b5df2'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#e7423f'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#000000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#009933'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#ffe470'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#d60808'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#f00000'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#5ab532'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#2b5df2'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#f2d145'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#5ab532'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#da0909'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#2b5df2'},
+{'stroke-width': '0','stroke-opacity': '1','fill': '#0065bd'}
+];
+/*
+	Aargau, 
+	Appenzell I.Rh., 
+	Appenzell A.Rh., 
+	Bern, 
+	Basel-Land, 
+	Basel-Stadt, 
+	Freiburg, 
+	Genf, 
+	Glarus, 
+	Graubnden, 
+	Jura, 
+	Luzern, 
+	Neuenburg, 
+	Nidwalden, 
+	Obwalden, 
+	St. Gallen, 
+	Schaffhausen, 
+	Solothurn, 
+	Schwyz, 
+	Thurgau, 
+	Tessin, 
+	Uri, 
+	Waadt,
+ Wallis, 
+ Zug, 
+Zrich
+*/

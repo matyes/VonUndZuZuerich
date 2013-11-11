@@ -1,0 +1,196 @@
+/* * {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+#startscreen {
+  background-color: white;
+}
+#output {
+  margin: 1em 0;
+  display: inline-block;
+}
+#outputx {
+  width: 598px;
+  height: 550px;
+
+  display: inline-block;
+   border: black 1px solid;
+}
+
+#output {
+  width: 598px;
+  margin-left: -100;
+  height: 550px;
+  border: black 1px solid;
+  
+}
+#output a {
+  
+  margin: 0px 3px;
+  font-size: 10px;
+}
+
+#input a{
+  display: inline-block;
+  padding: 10px;
+  text-align: 100px;
+  margin: 0px 3px;
+  font-size: 10px;
+}
+*/
+* {
+  box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-size: 14px;*/
+    padding-left:10px;
+}
+
+#container {
+  height: 720px;
+  width: 1300px;
+  /*border: black solid 1px;*/
+  /*background-color:rgba(0,0,0,0.2); */
+}
+
+#header {
+  height: 70px;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: right;
+  /*border: red solid 1px;*/
+  /*background-color:rgba(255,255,255,1);*/
+}
+
+#middle {
+  height: 610px;
+  /*border: blue solid 1px;*/
+}
+
+#footer {
+  height: 30px;
+  /*border: green solid 1px;*/
+  /*background-color:rgba(255,255,255,1);*/
+}
+
+#output {
+  height: 550px;
+  width: 580px;
+  padding-left: 5px;
+  margin-left: -20px;
+  /*border: black solid 1px;*/
+  float: left;
+}
+
+#outputx {
+  height: 550px;
+  width: 585px;
+  margin-left: 0px;
+  /*border: black solid 1px;*/
+  float: right;
+}
+
+#menu{
+  position: absolute;
+  left: 614px;
+  height: 550px;
+  font-weight: lighter;
+  margin-top: 20px;
+  width: 130px;
+  text-align: center;
+  /*border: black solid 1px;*/
+  float: left;
+}
+
+#runIn{
+  position: absolute;
+  left: 50px;
+  top: 90px;
+}
+#runOut{
+  position: absolute;
+  left: 1274px;
+  top: 90px;
+}
+
+#timetable{
+  height: 200px; 
+  /*border: black solid 1px;*/
+}
+
+#input {
+  height: 40px;
+  text-align: center;
+  /*border: black solid 1px;*/
+  /*background-color:rgba(232,232,232,10);*/
+}
+#input a{
+  display: inline-block;
+  padding: 10px;
+  text-align: 100px;
+  margin: 0px 3px;
+  font-size: 10px;
+  text-decoration: none;
+  font-color: black;
+
+  ;
+}
+
+a:link{
+  color:black;
+}
+
+a:active{
+  color:grey;
+}
+
+#titles {
+  height: 40px;
+  font-size: 30px;
+  text-align: right;
+  /*border: black solid 1px;*/
+  /*background-color:rgba(255,0,0,1);*/
+}
+
+#buttonGender {
+  position: absolute;
+  left: 38px;
+  top: 19px;
+
+}
+
+#buttonGender.active {
+  opacity: 0.5;
+}
+#buttonAge.active {
+  opacity: 0.5;
+}
+#buttonKanton.active {
+  opacity: 0.5;
+}#buttonKreis.active {
+  opacity: 0.5;
+}
+#buttonAge {
+  position: absolute;
+  left: 19px;
+  top: 110px;
+  
+}
+
+#buttonKreis {
+    position: absolute;
+  left: 40px;
+  top: 210px;
+  
+}
+
+#buttonKanton {
+    position: absolute;
+  left: 39px;
+  top: 300px;
+  
+}
